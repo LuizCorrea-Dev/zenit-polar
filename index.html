@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e255975cd2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,200;1,300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenit Polar</title>
+</head>
+<body>
+    <div class="center">
+        
+        <h1>Tradutor < <i class="fas fa-language"></i> > Zenit Polar</h1>
+
+        <form action="" id="send_message">
+
+            <label class="txtEnviado">Texto a ser traduzido</label>
+            
+            <!--texto a ser traduzido-->
+            <textarea type="text" id="textInput" placeholder="Digite o texto aqui"></textarea>
+            <button>Traduzir</button>
+            </form>
+        <button id="limpar" onclick="clean()">Limpar</button>
+        <br/>
+        <br/>
+        <hr/>
+        <!--tradução-->
+        <label class="txtTraduzido">Texto traduzido</label>
+        <textarea id="textOutput" readonly=“disabled” placeholder="O texto traduzido será inserido aqui"></textarea>
+        <button id="copiar" onclick="copy()">Copiar</button>
+        
+    </div><!--center-->
+    
+    <br/>
+    <br/>
+    <br/>
+   
+    
+    <hr/>
+    <div class=center>
+    <footer>
+        <img src="nuapcode-logo2.png" /> 
+        <p class="author">Author: <br/>Luiz Correa  <br/>                       
+        <a href="mailto:luizcorrea@nuapcode.com">luizcorrea@nuapcode.com</a></p>
+
+        
+    </footer>
+    </div>
+   
+
+
+<script src="script.js" ></script>
+</body>
+</html>
